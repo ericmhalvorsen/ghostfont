@@ -2,7 +2,7 @@
 
 An interactive terminal-based font picker in lua for [Ghostty](https://ghostty.org/)
 
-Made because I like to look at the font in real time and tabbing back and forth between font options and config was a little tedious. Playing around with writing to terminal.
+Made because I like to look at the font in real time and tabbing back and forth between font options and config was a little tedious.
 
 ## Usage
 
