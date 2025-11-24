@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Ghostty Font Picker wrapper script
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Check if lua is installed
+if ! command -v lua &> /dev/null; then
+    echo "Error: Lua is not installed. Please install Lua 5.1 or higher."
+    exit 1
+fi
+
+# Run the Lua script
+exec lua "$SCRIPT_DIR/ghostfont.lua" "$@"
